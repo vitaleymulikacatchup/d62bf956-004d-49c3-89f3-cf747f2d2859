@@ -6,11 +6,11 @@ import SplitAbout from '@/components/sections/layouts/about/SplitAbout';
 import HowToBuy3D from '@/components/sections/layouts/howtobuy/3DHTB';
 import PatternTokenomics from '@/components/sections/layouts/tokenomics/PatternTokenomics';
 import FooterLogoEmphasisBackgroundGradient from '@/components/footer/FooterLogoEmphasisBackgroundGradient';
-import { LucideIcon } from 'lucide-react';
+import { ArrowRight, Percent, Shield } from 'lucide-react';
 
-const Icon1: LucideIcon = /*<your_icon_here>*/;
-const Icon2: LucideIcon = /*<your_icon_here>*/;
-const Icon3: LucideIcon = /*<your_icon_here>*/;
+const Icon1 = Shield;
+const Icon2 = ArrowRight;
+const Icon3 = Percent;
 
 export default function Home() {
   return (
